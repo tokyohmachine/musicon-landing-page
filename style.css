@@ -1,0 +1,268 @@
+/* General Rulesets */
+* {
+    color: #ffffff;
+  }
+  
+  body { 
+    font-family: Helvetica, sans-serif;
+    
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("IMAGES/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ 
+
+  a {
+    text-decoration: none;
+  }
+
+/* NAV BAR*/
+
+  header {
+    min-height: 70px;
+    position: static;
+    top: 0;
+    width: 100%;
+    
+  }
+
+  .container {
+    max-width: 1380px;
+    
+  }
+  
+  .branding {
+    float: left;
+    margin-left: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .fa-music {
+    font-size: 25px;
+    padding-right: 3px;
+  }
+  .navbar {
+    float: right;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-right: 25px;
+  }
+  
+  .navbar li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .navbar li a:hover, .navbar .current a {
+    color: #ffffff;
+  }
+
+
+/* MAIN */
+#introduction {
+  padding-top: 5%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+
+#introduction h1 {
+  font-size: 50px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+article {
+  overflow: hidden;
+}
+
+
+@media (max-width: 800px) {
+  .instrument .details {
+    max-height: 200px; /* adjust this value as needed */
+    overflow-y: hidden;
+  }
+}
+#introduction p {
+    max-width: 50%;
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.btn{
+  margin: 4% auto;
+  width: 25%;
+  padding: 3% 8%;
+  background-color: #4c7ef3;
+}
+
+.btn a {
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #26A69A;
+}
+
+ /* FOOTER INDEX*/
+ footer {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 0;
+  position: static;
+  margin-top: 50px;
+}
+footer p {
+  margin-right: 25px;
+}
+
+
+/* STORE Page Rulesets */
+
+#showcase {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.instrument {
+  width: 90%;
+  overflow: auto;
+margin-bottom: 10px;
+}
+
+.instrument img {
+  max-width: 400px;
+  max-height: 300px;
+  vertical-align: middle;
+}
+
+.details {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin: -1% auto;
+  padding: 2%;
+}
+
+.name, .description, .price, del {
+  color: white;
+  text-align: left;
+}
+
+.description, .price {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.description {
+  height: 100%;
+  font-size: 16px;
+  overflow: auto;
+}
+
+.price {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sale {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+  
+
+
+  /* CONTACT Page Rulesets */
+  
+  #connection {
+    width: 100%;
+    padding-top: 5%;
+    text-align: center;
+    
+  }
+  
+  #top {
+    margin: 30px auto;
+  }
+  
+  #top h2 {
+    margin: auto;
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  #top p {
+    max-width: 50%;
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    
+  }
+  
+  .contact {
+    width: 100%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .contact ul,
+  #location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .contact li,
+  #location li {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact p,
+  #location li {
+    margin: 5px auto;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: lighter;
+    
+  }
+
+ #location {
+  padding: 0;
+ }
